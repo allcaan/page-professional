@@ -8,15 +8,14 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        PCJ Team
       image:
-        filename: welcome.jpg
+        filename: teamwork2.jpeg
       text: |
         <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+
+        We’re a small, cross-functional team. We use competitions and hackathons as a proving ground to rapidly validate ideas and ship working results. From product fabrication to AI-driven services and brand/UX/UI, we handle end-to-end delivery with tight loops—problem framing, research, prototyping, field testing, and refinement.
+
   - block: collection
     content:
       title: Latest News
@@ -35,7 +34,7 @@ sections:
     design:
       view: card
       columns: '1'
-  
+
   - block: markdown
     content:
       title:
@@ -44,7 +43,7 @@ sections:
     design:
       columns: '1'
       background:
-        image: 
+        image:
           filename: coders.jpg
           filters:
             brightness: 1
@@ -56,18 +55,6 @@ sections:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
 
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
 
   - block: markdown
     content:

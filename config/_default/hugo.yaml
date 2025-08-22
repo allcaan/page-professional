@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Wowchemy Research Group # Website name
-baseURL: 'https://example.com/' # Website URL
+title: PCJ # Website name
+baseURL: 'https://PCJteam.com/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -44,8 +44,9 @@ timeout: 600000
 taxonomies:
   tag: tags
   category: categories
-  publication_type: publication_types
   author: authors
+  project_types: project_types
+  publication_types: publication_types
 markup:
   _merge: deep
 related:

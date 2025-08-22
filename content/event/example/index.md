@@ -1,6 +1,12 @@
 ---
 title: Example Event
 
+#_build:
+#  render: never
+#  list: never
+#  publishResources: false
+
+
 event: Wowchemy Conference
 event_url: https://example.org
 
